@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 function Section({title, description, leftButtonText, rightButtonText, bgImage}) {
+
   return (
     <Wrap bgImage={bgImage}>
         <ItemText>
